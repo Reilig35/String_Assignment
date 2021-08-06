@@ -28,21 +28,20 @@ namespace String
             
             //Building a paragraph using the stringbuilder method
             StringBuilder myParagraph = new StringBuilder("For although a man is judged by his actions, ");
-            Console.WriteLine(myParagraph);
+           
 
-            myParagraph.Replace("For although a man is judged by his actions, ", "by what he has said and done, a man judges himself by what he is ");
-            Console.WriteLine(myParagraph);
+            myParagraph.Append("\nby what he has said and done, a man judges himself by what he is ");
+            
+            myParagraph.Append("\nwilling to do, by what he might have said, or might have done – a ");
+            
 
-            myParagraph.Replace("by what he has said and done, a man judges himself by what he is ", "willing to do, by what he might have said, or might have done – a ");
-            Console.WriteLine(myParagraph);
+            myParagraph.Append("\njudgment that is necessarily hampered, bot only by the scope and ");
+            
 
-            myParagraph.Replace("willing to do, by what he might have said, or might have done – a ", "judgment that is necessarily hampered, bot only by the scope and ");
-            Console.WriteLine(myParagraph);
+            myParagraph.Append("\nlimits of his imagination, but by the ever-changing measure of his ");
+            
 
-            myParagraph.Replace("judgment that is necessarily hampered, bot only by the scope and ", "limits of his imagination, but by the ever-changing measure of his ");
-            Console.WriteLine(myParagraph);
-
-            myParagraph.Replace("limits of his imagination, but by the ever-changing measure of his ", "doubt and self-esteem.");
+            myParagraph.Append("\ndoubt and self-esteem.");
             Console.WriteLine(myParagraph);
 
 
